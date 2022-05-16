@@ -1,1 +1,5 @@
-web: java $JAVA_OPTS -jar target/dependency/jetty-runner.jar --port $PORT target/*.war
+public class helloworld {
+   public static void main(String[] args) {
+    System.out.println("Hello World from DevOps using webhooks - another time!");
+    }
+}
